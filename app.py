@@ -1,3 +1,5 @@
+import streamlit as st
+st.title("Streamlit Chatbot")
 import os
 os.environ["GOOGLE_API_KEY"]=st.screat["GOOGLE_API_KEY"]
 # streamlit_chatbot.py
